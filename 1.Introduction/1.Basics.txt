@@ -1,0 +1,84 @@
+Tk is a free and open-source, cross-platform widget toolkit that provides a library of basic elements of GUI widgets for building a 
+graphical user interface (GUI) in many programming languages.
+
+Tk is the Library/package/module like python Library/package/module writtent in tcl language.
+
+Tk provides a number of widgets commonly needed to develop desktop applications, such as button, menu, canvas, text, frame, label, etc. 
+Tk has been ported to run on most flavors of Linux, Mac OS, Unix, and Microsoft Windows. Like Tcl, Tk supports Unicode within the Basic 
+Multilingual Plane but it has not yet been extended to handle 32-bit Unicode.
+
+Note: Bydeafult Tk-tookkit for GUI, will support for tcl language.
+
+Architecture:
+=============
+Tk is a platform-independent GUI framework developed for Tcl.
+
+Tk has the following characteristics:
+
+Platform-independent: Like Tcl, Tk is interpreted. It has been ported to multiple platforms and can easily run on all of them without 
+                      modification.
+Customizable:         Almost all the features of a widget in Tk are customizable through options during the creation of the widget or 
+                      later on through the configure command.
+Configurable:         Many of the options can be stored in an option database, making it very easy to parameterize the look of an 
+                      application (such as the color scheme). This also means that storing the application-specific options is only a 
+                      matter of saving the option add commands and executing them on loading the application.
+                      
+Language bindings:
+=================
+    A library written in one programming language may be used in another language if bindings are written; 
+    Tk is integrated with the Tcl language.
+    
+    Various other languages have bindings for Tk.
+    Like: 
+        Python (Tkinter is the binding for Tk using python)
+        Perl
+        Ruby etc...
+        
+Tk provides various widgets.(widget:something which is usefult to create something)
+
+Basic widgets:
+=============
+button
+canvas
+checkbutton
+combobox
+entry
+frame
+label
+labelframe
+listbox
+menu
+menubutton
+message
+notebook
+panedwindow
+progressbar
+radiobutton
+scale
+scrollbar
+separator
+sizegrip
+spinbox
+text
+tk_optionMenu
+treeview
+
+Top-level widgets:
+=================
+tk_chooseColor – pops up a dialog box for the user to select a color.
+tk_chooseDirectory – pops up a dialog box for the user to select a directory.
+tk_dialog – creates a modal dialog and waits for a response.
+tk_getOpenFile – pops up a dialog box for the user to select a file to open.
+tk_getSaveFile – pops up a dialog box for the user to select a file to save.
+tk_messageBox – pops up a message window and waits for a user response.
+tk_popup – posts a popup menu.
+toplevel – creates and manipulates toplevel widgets.
+
+Geometry managers:
+==================
+Basic widgets are arranged in toplevel windows using geometry managers.
+
+place – positions widgets at absolute locations
+grid – arranges widgets in a grid
+pack – packs widgets into a cavity
+-----------------------------------------------------------------------------------------------
