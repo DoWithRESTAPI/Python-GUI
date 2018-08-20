@@ -1,0 +1,17 @@
+#Simple_window.py
+from Tkinter import * #Importig python binding for Tk
+window=Tk() #Creating window object
+window.mainloop() #Running window object at infinity times
+
+#simple_window_with_title.py
+from Tkinter import *
+window=Tk()
+window.title("This is a GUI using python Tkinter binding")
+window.mainloop()
+
+#simple_windo_with_required_geometry.py
+from Tkinter import *
+window=Tk()
+window.title("This window is with required geometry")
+window.geometry("500x300")
+window.mainloop()
