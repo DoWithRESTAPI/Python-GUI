@@ -1,4 +1,0 @@
-from Tkinter import *
-
-window=Tk() #Creates a window object
-window.mainloop() #Runs window objects at infinity times
