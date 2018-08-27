@@ -47,6 +47,18 @@ w = Label(mainwin, text="Blue Sky", bg="blue", fg="white")
 w.pack(fill=X)
 
 mainwin.mainloop()
+
+Note: Also check for fill=Y, fill=BOTH
 ---------------------------------------------------------------------------------------------------
+fill with padding:
+=================
+        The pack() manager knows four padding options, i.e. internal and external padding and padding in x and y direction:
+        External padding: padx and pady
+        Internal padding: ipadx and ipady
+        for remaing info see:
+        https://www.python-course.eu/tkinter_layout_management.php
 
-
+Note: See the difference betwwen fill and expand
+                https://stackoverflow.com/questions/28089942/difference-between-fill-and-expand-options-for-tkinter-pack-method
+                https://www.quora.com/What-is-the-difference-between-fill-and-expand-in-TkInter-Python
+                
