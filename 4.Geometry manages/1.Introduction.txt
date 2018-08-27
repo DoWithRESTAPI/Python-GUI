@@ -15,3 +15,22 @@ grid: To arrange widgets based on rows and columns.
       which will give you more flexibility to your widgets.
 
 place: To arrange widgets in absolute position.
+===============================================================================
+pack
+This is the simplest of the geomentry managers to use. I think of it as a concertina cardboard box with books stacked against each of the sides. Imagine the concertina contracts to minimise the space in the middle.
+
+Most of the time, you just stack against one side. However, the other options are useful if you want to add widgets in a different order.
+
+grid
+Pack is all very well for simple apps. And you can nest frames with widgets packing in different directions.
+
+But, the rows and columns will not line up. If the model of what you want to do fits better a matrix of cells, the grid geometry manager gives you this. Think Excel spreadsheet, or better, HTML table.
+
+place
+With the other two, positioning of widgets is automatic, and the size of the tol level window fits the size of what it contains.
+
+The place geometry manager, on the other hand, works like more traditional GUI programming languages, e.g. Visual Basic. Each widget is placed with coordinates of its origin and an exact size.
+
+place is used when the user has the ability to drag and move widgets around. However, in Tk, this type of activity tends to be done with a canvas.
+
+There are other geometry managers, but these tend to be more specialised and less widely used.
