@@ -1,0 +1,16 @@
+Label is one of the standrad widget of a Tkinter
+
+Label is used to place text or image on the screen
+
+
+ex:
+from Tkinter import *
+
+win=Tk()
+win.title("This is about Label")
+win.geometry("500x300")
+
+lb1=Label(win,text="This message is from Label function")
+lb1.pack()
+
+win.mainloop()
