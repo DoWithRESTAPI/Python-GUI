@@ -1,1 +1,17 @@
+As we’ve seen, creating a new widget doesn’t mean that it appears on the screen. we should call one of the geometry manager, to appear our widget on screen.
 
+They are three types of Geometry managers/Layout managers in Python Tkinter package.
+They are:
+    pack
+    grid
+    place.
+    
+Note: The three layout managers pack, grid, and place should never be mixed in the same master window
+
+
+Pack: To arrange widgets horizantally or vertically
+
+grid: To arrange widgets based on rows and columns.
+      which will give you more flexibility to your widgets.
+
+place: To arrange widgets in absolute position.
