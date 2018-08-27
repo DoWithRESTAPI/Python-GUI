@@ -62,3 +62,12 @@ Note: See the difference betwwen fill and expand
                 https://stackoverflow.com/questions/28089942/difference-between-fill-and-expand-options-for-tkinter-pack-method
                 https://www.quora.com/What-is-the-difference-between-fill-and-expand-in-TkInter-Python
                 
+side:
+====
+side=LEFT,RIGHT,TOP,BOTTOM
+
+Try with anchore also:
+    https://www.tutorialspoint.com/python/tk_anchors.htm
+    
+For more options:
+        http://effbot.org/tkinterbook/pythondoc-tkinter-pack.htm
