@@ -1,0 +1,4 @@
+http://infohost.nmt.edu/tcc/help/pubs/tkinter/web/grid.html
+
+https://tkdocs.com/tutorial/grid.html
+
