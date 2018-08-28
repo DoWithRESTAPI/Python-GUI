@@ -1,0 +1,2 @@
+widget is the building block of your GUI application.
+
