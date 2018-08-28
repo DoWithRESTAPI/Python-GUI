@@ -1,4 +1,6 @@
-As we’ve seen, creating a new widget doesn’t mean that it appears on the screen. we should call one of the geometry manager, to appear our widget on screen.
+We know that widget is a building block of a GUI Application. Now we should learn, How do widgets get arranged in a window?
+
+We can arrange widgets using Geometry Managers.  we should call one of the geometry manager, to appear our widget on screen/main window.
 
 They are three types of Geometry managers/Layout managers in Python Tkinter package.
 They are:
